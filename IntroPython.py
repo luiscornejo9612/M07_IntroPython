@@ -54,6 +54,15 @@
 
 # Demanar a l’usuari que posi entre 2 i 3 paraules. A l’executar el programa, mostrarà les paraules indicades per l’usuari, 
 # indicar quants caràcters té i indicar el primer, i l’últim caràcter.
+smg = input("ingresa aqui de 2 a 3 paraules: ")
+numCaracter = len(smg)
+primerC = smg[0]
+ultimoC = smg[numCaracter-1]
+print("Has ingresado ",smg, "\nLa logitud es ", numCaracter, "\nLa primera letra es: ",primerC,"\nLa ultima letra es: ", ultimoC)
+
+
+
+
 
 # Demanar a l’usuari que posi una paraula o una frase i que el programa ens indiqui si és capicua (Palíndrom). Ex: Anna, Llull, caiac, mínim,...
 
